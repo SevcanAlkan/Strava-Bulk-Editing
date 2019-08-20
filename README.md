@@ -7,7 +7,8 @@ To use:
 
 1. Go to [https://www.strava.com/athlete/training](https://www.strava.com/athlete/training)
 2. Open Chrome developer tools and enter the following into the console:
-*If you want to upgrade bike section, please use "strava-bike-edit.js" file and continue from 3. step.
+
+> If you want to upgrade bike section, please use "strava-bike-edit.js" file and continue from 3. step.
 
 ```javascript
 function bulkEdit(privacySetting = 'everyone') {
@@ -42,15 +43,15 @@ By default this makes all your activities public.
 `bulkEdit('only_me)` - only allow yourself to view your activities
 
 3. To upgrade Bike section; 
-  -Go to [https://www.strava.com/athlete/training](https://www.strava.com/athlete/training)
-  -Fristly you must find your bike id. 
-    -Open the concole with F12.
-    -Click an edit button of anyone activity.
-    -Press Ctrl+Shift+C.
-    -Select the dropdown of Bike.
-    -Expand the element for see bike names and ids.
-    -Copy your bike Id from value attribute.
-  -Open "strava-bike-edit.js" file from GitHub repository. And copy all code.
-  -Don't forget to change first row "function bulkEdit(bikeSetting = 'WRITE-YOUR-BIKE-ID')" in the "strava-bike-edit.js" file.
-  -Execute the JS code and wait until to upgrade all records.
+  - Go to [https://www.strava.com/athlete/training](https://www.strava.com/athlete/training)
+  - Fristly you must find your bike id. 
+    - Open the concole with F12.
+    - Click an edit button of anyone activity.
+    - Press Ctrl+Shift+C.
+    - Select the dropdown of Bike.
+    - Expand the element for see bike names and ids.
+    - Copy your bike Id from value attribute.
+  - Open "strava-bike-edit.js" file from GitHub repository. And copy all code.
+  - Don't forget to change first row "function bulkEdit(bikeSetting = 'WRITE-YOUR-BIKE-ID')" in the "strava-bike-edit.js" file.
+  - Execute the JS code and wait until to upgrade all records.
   
