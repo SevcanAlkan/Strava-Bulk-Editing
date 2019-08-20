@@ -8,7 +8,7 @@ To use:
 1. Go to [https://www.strava.com/athlete/training](https://www.strava.com/athlete/training)
 2. Open Chrome developer tools and enter the following into the console:
 
-> If you want to upgrade bike section, please use "strava-bike-edit.js" file and continue from 3. step.
+> If you want to update bike section, please use "strava-bike-edit.js" file and continue from 3. step.
 
 ```javascript
 function bulkEdit(privacySetting = 'everyone') {
@@ -42,7 +42,7 @@ By default this makes all your activities public.
 `bulkEdit('followers_only)` - allow followers to view your activities <br />
 `bulkEdit('only_me)` - only allow yourself to view your activities
 
-3. To upgrade Bike section; 
+3. To update Bike section; 
   - Go to [https://www.strava.com/athlete/training](https://www.strava.com/athlete/training)
   - Fristly you must find your bike id. 
     - Open the concole with F12.
